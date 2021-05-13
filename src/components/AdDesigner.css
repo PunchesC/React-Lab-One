@@ -7,3 +7,11 @@
 .dark{
   background-color: seagreen;
 }
+
+button{
+  background-color: #1e60a9;
+}
+
+button:disabled{
+  background-color:gray;
+}

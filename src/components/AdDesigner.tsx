@@ -48,9 +48,9 @@ const styles ={
     </div>
      <p>What to Support</p>
      <p>
-       <button onClick={Chocolate}>Chocolate</button>
-       <button onClick={Vanilla}>Vanilla</button>
-       <button onClick={Strawberry}>Strawberry</button>
+       <button disabled={ad==="Chocolate"}onClick={Chocolate}>Chocolate</button>
+       <button disabled={ad==="Vanilla"}onClick={Vanilla}>Vanilla</button>
+       <button disabled={ad==="Strawberry"}onClick={Strawberry}>Strawberry</button>
      </p>
      <p>Color Theme</p>
      <p>

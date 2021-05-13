@@ -1,9 +1,17 @@
 import {useState} from 'react';
+import './Vote.css';
+
 
 
 function Vote(){
+  const [chocolate,setChocolate] = useState(0)
 
-
+  function ChocolateUp(){
+    setChocolate(prev => prev +1)
+  }
+const ChocolateStyle = {
+  width: chocolate +"px"
+}
 
 
 
@@ -11,13 +19,14 @@ function Vote(){
     <div className="Vote">
      <div>
      <h3>Vote Here</h3>
-     <button>Chocolate</button>
+     <button onClick={ChocolateUp}>Chocolate</button>
      <button>Vanilla</button>
      <button>Strawberry</button>
      </div> 
      <div>
        <p>Chocolate:</p>
-       <p></p>
+       <p className="chocolateBar" style={ChocolateStyle}>c</p>
+       {chocolate}
        <p>Vanilla:</p>
        <p></p>
        <p>Strawberry:</p>
