@@ -1,0 +1,13 @@
+.Header {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:x-large;
+  display: flex;
+  justify-content: center;
+  border: 5px solid salmon;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+
+  color: black;
+  -webkit-text-fill-color: salmon; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
