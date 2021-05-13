@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import AdDesigner from './components/AdDesigner';
+import Vote from './components/Vote';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <AdDesigner />
+      <Vote />
     </div>
   );
 }
