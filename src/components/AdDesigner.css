@@ -1,17 +1,21 @@
+.AdDesigner{
+  display: flex;
+  flex-direction: column;
+ 
+}
 .voteBox{
-  
-  border: 5px solid black;
+  width:200px;
+  display: flex;
+  justify-content: center;
+  border: 5px solid #222 ;
+  color: #000;
+ 
 }
 
 
 .dark{
-  background-color: seagreen;
+  background-color: #222;
+  color: #fff
+
 }
 
-button{
-  background-color: #1e60a9;
-}
-
-button:disabled{
-  background-color:gray;
-}

@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Ad from './Ad'
 import './AdDesigner.css'
 
 function AdDesigner(){
@@ -41,10 +42,10 @@ const styles ={
   return(
     <div className="AdDesigner">
      
-      <h1>AdDesigner</h1>
+    <h1>AdDesigner</h1>
     <div className={"voteBox" + additionalClass}>
       <h2>Vote For</h2>
-      <p style={styles}>{ad}</p>
+      <p style={styles}><Ad flavor={ad} fontSize={size} darkTheme={theme}/></p>
     </div>
      <p>What to Support</p>
      <p>
@@ -54,8 +55,8 @@ const styles ={
      </p>
      <p>Color Theme</p>
      <p>
-     <button onClick={lightThem}>Light</button>
-       <button onClick={darkTheme}>Dark</button>
+     <button disabled={theme===true}onClick={lightThem}>Light</button>
+       <button disabled={theme===false}onClick={darkTheme}>Dark</button>
      </p>
      <p>Font Size</p>
      <p>

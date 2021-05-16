@@ -1,0 +1,19 @@
+
+.AdDesigner{
+  border-color:  #222;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.Dark{
+ 
+  color:#fff;
+  background-color: #222;
+}
+

@@ -1,0 +1,29 @@
+.App{
+  font-family: 'Caveat', cursive;
+
+}
+
+.body{
+  margin: 25px 300px 0px 200px;
+  display:flex;
+  justify-content: space-between;
+}
+
+button{
+  background-color: #0e3c7e;
+}
+button:active{
+  background-color: #1e60a9;
+}
+
+button:disabled{
+  background-color:gray;
+}
+
+@media only screen and (max-width: 1000px) {
+  .body {
+    background-color: lightblue;
+    display:flex;
+    flex-direction: column;
+  }
+}

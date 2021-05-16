@@ -1,4 +1,25 @@
 .chocolateBar{
-  width: 0;
+  width: 0px;
   background-color: sienna;
+ 
+}
+
+.vanillaBar{
+  width:0px;
+  background-color:green;
+}
+
+.strawberryBar{
+  width:0px;
+  background-color:red;
+}
+
+.displayNone{
+  display: none;
+}
+
+.Vote{
+  display:flex;
+  flex-direction: column;
+  
 }
