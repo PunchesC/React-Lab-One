@@ -22,7 +22,7 @@ function Ad({flavor, fontSize, darkTheme}:Props){
     return(
       <div className={"AdDesigner"+ addClass}>
   
-      <div>
+      <div className="border">
         <p style={style}>{flavor}</p>
       </div>
      

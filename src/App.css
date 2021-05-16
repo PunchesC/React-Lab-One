@@ -1,7 +1,16 @@
 .App{
   font-family: 'Caveat', cursive;
+ 
+}
+
+.threeAds{
+  display: flex;
+  justify-content: space-evenly;
+  margin:25px;
+ 
 
 }
+
 
 .body{
   margin: 25px 300px 0px 200px;
@@ -22,7 +31,7 @@ button:disabled{
 
 @media only screen and (max-width: 1000px) {
   .body {
-    background-color: lightblue;
+   
     display:flex;
     flex-direction: column;
   }

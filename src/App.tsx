@@ -11,18 +11,21 @@ function App() {
   return (
     <div className="App">
       <Header user="Curtis"/>
-      <div className= "body">
-        <section>
-      {/* <Ad flavor="Chocolate" fontSize={11} darkTheme={true}/>
+      <div className="threeAds">
+     
+      <Ad flavor="Chocolate" fontSize={11} darkTheme={true}/>
       <Ad flavor="Vanilla" fontSize={25} darkTheme={false}/>
-      <Ad flavor="Strawberry" fontSize={20} darkTheme={true}/> */}
+      <Ad flavor="Strawberry" fontSize={20} darkTheme={true}/>
+     </div>
+      
+      <div className="body">
       <AdDesigner />
-      </section>
-      <section>
+      
       <Vote />
-      </section>
+     
       </div>
-    </div>
+      </div>
+    
   );
 }
 
