@@ -25,16 +25,16 @@ function darkTheme(){
 }
 
 function addSize(){
-  setSize(prev => prev +5)
+  setSize(prev => prev +1)
 }
 function downSize(){
-  setSize(prev => prev -5)
+  setSize(prev => prev -1)
 }
 
-let additionalClass="";
-if(theme === false ){
-  additionalClass = " dark"
-}
+// let additionalClass="";
+// if(theme === false ){
+//   additionalClass = " dark"
+// }
 
 const styles ={
   fontSize:size +"px"
@@ -43,8 +43,8 @@ const styles ={
     <div className="AdDesigner">
      
     <h1>AdDesigner</h1>
-    <div className={"voteBox" + additionalClass}>
-      <h2>Vote For</h2>
+    <div className={"voteBox" }>
+    
       <p style={styles}><Ad flavor={ad} fontSize={size} darkTheme={theme}/></p>
     </div>
      <p>What to Support</p>

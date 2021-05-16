@@ -10,6 +10,7 @@ interface Props {
 function Ad({flavor, fontSize, darkTheme}:Props){
   const style ={
     fontSize:fontSize,
+    fontFamily: 'Caveat'
   }
 
   let addClass = "";
@@ -20,9 +21,10 @@ function Ad({flavor, fontSize, darkTheme}:Props){
   
  
     return(
-      <div className={"AdDesigner"+ addClass}>
-  
+      <div className={"Ad"+ addClass}>
+         
       <div className="border">
+        <h6>Vote For</h6>
         <p style={style}>{flavor}</p>
       </div>
      

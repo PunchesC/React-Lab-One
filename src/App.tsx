@@ -13,9 +13,9 @@ function App() {
       <Header user="Curtis"/>
       <div className="threeAds">
      
-      <Ad flavor="Chocolate" fontSize={11} darkTheme={true}/>
-      <Ad flavor="Vanilla" fontSize={25} darkTheme={false}/>
-      <Ad flavor="Strawberry" fontSize={20} darkTheme={true}/>
+      <Ad flavor="Chocolate" fontSize={11} darkTheme={false}/>
+      <Ad flavor="Vanilla" fontSize={25} darkTheme={true}/>
+      <Ad flavor="Strawberry" fontSize={20} darkTheme={false}/>
      </div>
       
       <div className="body">

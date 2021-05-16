@@ -12,3 +12,19 @@
 
 
 }
+.Header h1{
+  font-family: 'Caveat', cursive;
+}
+@media only screen and (max-width: 760px) {
+  .Header p {
+  
+    display: none;
+ 
+  }
+  .Header{
+    box-shadow: none;
+    border-bottom: rgba(0, 0, 255, 0.2) solid 4px; 
+    width:100vw;
+    
+  }
+}
