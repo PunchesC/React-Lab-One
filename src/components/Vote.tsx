@@ -66,14 +66,17 @@ if (totalVotes !==0){
      </div> 
      <div>
       
-       <p className={"chocolateBar" + additionalChocolate} style={chcoclateStyle}>Chocolate</p>
-       <p className= {additionalChocolate}>{sizeChocolate}, Percentage: {(sizeChocolate / totalVotes)*100}</p>
       
-       <p className={"vanillaBar"+ additionalVanilla} style={vanillaStyle}>Vanilla</p>
-       <p className= {additionalVanilla}>{sizeVanilla}, Percentage: {(sizeVanilla / totalVotes)*100}</p>
+       <p className= {additionalChocolate}> Chocolate: {sizeChocolate}, Percentage: {(sizeChocolate / totalVotes)*100}</p>
+       <p className={"chocolateBar" + additionalChocolate} style={chcoclateStyle}></p>
+      
+    
+       <p className= {additionalVanilla}> Vanilla: {sizeVanilla}, Percentage: {(sizeVanilla / totalVotes)*100}</p>
+       <p className={"vanillaBar"+ additionalVanilla} style={vanillaStyle}></p>
        
-       <p className={"strawberryBar" + additionalClass} style={strawberryStyle}>Strawberry</p>
-       <p className= {additionalClass}>{sizeStrawberry}, Percentage: {(sizeStrawberry / totalVotes)*100}</p>
+      
+       <p className= {additionalClass}> Strawberry: {sizeStrawberry}, Percentage: {(sizeStrawberry / totalVotes)*100}</p>
+       <p className={"strawberryBar" + additionalClass} style={strawberryStyle}></p>
       <p className ={noVote}>No Votes Yet!</p>
      </div>
     </div>

@@ -1,17 +1,20 @@
 .chocolateBar{
   width: 0px;
   background-color: sienna;
+  height: 20px;
  
 }
 
 .vanillaBar{
   width:0px;
   background-color:green;
+  height: 20px;
 }
 
 .strawberryBar{
   width:0px;
   background-color:red;
+  height: 20px;
 }
 
 .displayNone{
